@@ -20,4 +20,7 @@ public class MyQueue {
         return myLinkedList.head;
     }
 
+    public INode dequeue() {
+        return myLinkedList.pop();
+    }
 }
